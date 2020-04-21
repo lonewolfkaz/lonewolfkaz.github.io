@@ -1,0 +1,32 @@
+* {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #343434;
+  transition-duration: 900ms;
+}
+
+.page__header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 20px 40px;
+}
+
+.social-icons__icon {
+  margin-right: 20px;
+}
+
+.menu__page-link {
+  font-weight: bold;
+  display: inline;
+  margin-left: 20px;
+}
