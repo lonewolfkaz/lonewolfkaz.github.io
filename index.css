@@ -4,6 +4,11 @@
   --color-text-secondary: #bdbdbd;
 }
 
+::selection {
+  background-color: var(--color-text-primary);
+  color: white;
+}
+
 * {
   font-family: 'Noto Sans', sans-serif;
   margin: 0;
@@ -11,12 +16,12 @@
 }
 
 a {
-  color: #bdbdbd;
+  color: var(--color-text-secondary);
   text-decoration: none;
 }
 
 a:hover {
-  color: #343434;
+  color: var(--color-text-primary);
   cursor: pointer;
   transition-duration: 900ms;
 }
@@ -24,6 +29,10 @@ a:hover {
 .social-icons {
   position: absolute;
   bottom: 120px;
+  -webkit-user-select: none;  
+  -moz-user-select: none;     
+  -ms-user-select: none;     
+  user-select: none;          
 }
 
 .social-icons__icon {
@@ -34,6 +43,10 @@ a:hover {
   font-weight: bold;
   display: block;
   margin-bottom: 20px;
+}
+
+.menu__page-link_selected {
+  color: var(--color-text-primary);
 }
 
 /* Text */
@@ -55,16 +68,6 @@ a:hover {
 .text_view_secondary {
   color: var(--color-text-secondary);
 }
-
-.test-bg1 {
-  background: #2196F3;
-}
-
-.test-bg2 {
-  background: #64B5F6;
-}
-
-
 
 .navigation
 {
@@ -104,7 +107,7 @@ a:hover {
   width: 100%;
   height: 72px;
   box-sizing: border-box;
-  padding-top: 20px;
+  padding-top: 48px;
 }
 
 
@@ -131,9 +134,7 @@ a:hover {
       margin: auto;
   }
 
-  .menu {
-    margin-bottom: 40px;
-  }
+
 
   .menu__page-link {
     font-weight: bold;
@@ -142,6 +143,7 @@ a:hover {
   }
 
   .social-icons {
+    margin-bottom: 40px;
     position: static;
   }
 }
@@ -161,16 +163,24 @@ a:hover {
 }
 
 .card:hover {
+  cursor: pointer;
   -webkit-box-shadow: 3px 1px 8px 5px rgba(179, 175, 179, 0.3);
   -moz-box-shadow: 3px 1px 8px 5px rgba(179, 175, 179, 0.3);
   box-shadow: 3px 1px 8px 5px rgba(179, 175, 179, 0.3);
+  
+  -moz-transform: translate(7px, 0px);
+  -webkit-transform: translate(7px, 0px);
+  -o-transform: translate(7px, 0px);
+  -ms-transform: translate(7px, 0px);
+  transform: translate(7px, 0px);
+
   transition-duration: 500ms;
 }
 
 .shadow_default {
-  -webkit-box-shadow: 3px 1px 8px -1px rgba(179, 175, 179, 0.49);
-  -moz-box-shadow: 3px 1px 8px -1px rgba(179, 175, 179, 0.49);
-  box-shadow: 3px 1px 8px -1px rgba(179, 175, 179, 0.49);
+  -webkit-box-shadow: 2px 1px 8px 0px rgba(179, 175, 179, 0.49);
+  -moz-box-shadow: 2px 1px 8px 0px rgba(179, 175, 179, 0.49);
+  box-shadow: 2px 1px 8px 0px rgba(179, 175, 179, 0.49);
 }
 
 .indent-b_xxxxl {
