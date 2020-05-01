@@ -1,0 +1,122 @@
+:root {
+  --color-brand: #2196f3;
+  --color-text-primary: #343434;
+  --color-text-secondary: #bdbdbd;
+}
+
+* {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #343434;
+  cursor: pointer;
+  transition-duration: 900ms;
+}
+
+.page__header {
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 20px 40px;
+}
+
+.social-icons__icon {
+  margin-right: 20px;
+}
+
+.menu__page-link {
+  font-weight: bold;
+  display: inline;
+  margin-left: 20px;
+}
+
+/* Text */
+.text_size_xxxl {
+  font-size: 32px;
+}
+
+.text_view_primary {
+  color: var(--color-text-primary);
+}
+
+.text_view_secondary {
+  color: var(--color-text-secondary);
+}
+
+.tpl-section {
+  max-width: 100vw;
+  /* background: #2196f3; */
+}
+
+.tpl-section_height_s {
+  min-height: 100%;
+  height: 70vh;
+}
+
+.tpl-section_height_full {
+  height: 100vh;
+}
+
+.tpl-section__container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.tpl-section__container_center_all {
+  align-items: center;
+  justify-content: center;
+}
+
+.tpl-section__container_align_all {
+  align-items: center;
+  justify-content: center;
+}
+
+.tpl-section__container_align_v {
+  justify-content: center;
+}
+
+.bg_test1 {
+  background: #64b5f6;
+}
+
+.card {
+  /* background: #bbdefb; */
+  height: 500px;
+  width: 300px;
+  margin-right: 40px;
+  border-radius: 16px;
+  transition-duration: 500ms;
+}
+
+.card:hover {
+  -webkit-box-shadow: 3px 1px 8px 5px rgba(179, 175, 179, 0.3);
+  -moz-box-shadow: 3px 1px 8px 5px rgba(179, 175, 179, 0.3);
+  box-shadow: 3px 1px 8px 5px rgba(179, 175, 179, 0.3);
+  transition-duration: 500ms;
+}
+
+.shadow_default {
+  -webkit-box-shadow: 3px 1px 8px -1px rgba(179, 175, 179, 0.49);
+  -moz-box-shadow: 3px 1px 8px -1px rgba(179, 175, 179, 0.49);
+  box-shadow: 3px 1px 8px -1px rgba(179, 175, 179, 0.49);
+}
