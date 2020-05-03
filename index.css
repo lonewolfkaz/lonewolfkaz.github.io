@@ -66,6 +66,11 @@ a:hover {
   line-height: 48px;
 }
 
+.text_size_l {
+  font-size: 20px;
+  line-height: 28px;
+}
+
 .text_view_primary {
   color: var(--color-text-primary);
 }
@@ -115,6 +120,10 @@ a:hover {
   .navigation /*I want this div to be in position fixed and height as 100% of the screen. But when I do it, there is a chaos*/ {
     position: relative;
     width: 100%;
+  }
+
+  ._hide {
+    display: none;
   }
 
   .layout {
@@ -185,9 +194,20 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.my-photo {
-  float: right;
+.indent-b_xs {
+  margin-bottom: 8px;
+}
+
+.indent-b_xxs {
+  margin-bottom: 4px;
+}
+
+.img {
   max-width: 100%;
+}
+
+.align-r {
+  float: right;
 }
 
 .clear {
