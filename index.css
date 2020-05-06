@@ -115,6 +115,19 @@ a:hover {
   padding-top: 48px;
 }
 
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__container_primary {
+  flex: 1;
+}
+
+.section__container_secondary {
+  width: 40%;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1024px) {
   .navigation /*I want this div to be in position fixed and height as 100% of the screen. But when I do it, there is a chaos*/ {
@@ -146,6 +159,19 @@ a:hover {
   .social-icons {
     margin-bottom: 40px;
     position: static;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .section_container_primary {
+    width: 100%;
+  }
+
+  .section_container_secondary {
+    width: 100%;
   }
 }
 
@@ -192,6 +218,10 @@ a:hover {
 
 .indent-b_xl {
   margin-bottom: 20px;
+}
+
+.indent-b_s {
+  margin-bottom: 12px;
 }
 
 .indent-b_xs {
