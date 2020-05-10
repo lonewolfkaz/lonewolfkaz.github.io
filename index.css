@@ -79,6 +79,10 @@ a:hover {
   color: var(--color-text-secondary);
 }
 
+.text_weight_bold {
+  font-weight: bold;
+}
+
 .navigation {
   box-sizing: border-box;
   width: 400px;
@@ -125,6 +129,7 @@ a:hover {
 }
 
 .section__container_secondary {
+  padding-left: 24px;
   width: 40%;
 }
 
@@ -171,6 +176,7 @@ a:hover {
   }
 
   .section_container_secondary {
+    padding-left: 0px;
     width: 100%;
   }
 }
