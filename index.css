@@ -2,6 +2,12 @@
   --color-brand: #2196f3;
   --color-text-primary: #343434;
   --color-text-secondary: #999999;
+  --color-text-ghost: rgba(0,0,0,0.45);
+
+
+  --color-text-primary_theme_inverse: rgba(255,255,255,0.9);
+  --color-text-secondary_theme_inverse: rgba(255,255,255,0.6);
+  --color-text-ghost_theme_inverse: rgba(255,255,255,0.4);
 }
 
 ::selection {
@@ -67,6 +73,11 @@ a:hover {
   line-height: 48px;
 }
 
+.text_size_xl {
+  font-size: 24px;
+  line-height: 31px;
+}
+
 .text_size_l {
   font-size: 20px;
   line-height: 28px;
@@ -81,8 +92,24 @@ a:hover {
   color: var(--color-text-primary);
 }
 
+.text_view_primary_theme_inverse {
+  color: var(--color-text-primary_theme_inverse);
+}
+
 .text_view_secondary {
   color: var(--color-text-secondary);
+}
+
+.text_view_secondary_theme_inverse {
+  color: var(--color-text-secondary_theme_inverse);
+}
+
+.text_view_ghost {
+  color: var(--color-text-ghost);
+}
+
+.text_view_ghost_theme_inverse {
+  color: var(--color-text-ghost_theme_inverse);
 }
 
 .text_view_brand {
@@ -143,8 +170,51 @@ a:hover {
   width: 40%;
 }
 
+/* geronimo */
+.section-private {
+  width: 100%;
+}
+
+.section-private_theme_inverse {
+  background: #121212;
+}
+
+.section-private_theme_normal {
+  background: #F3F3F3; 
+}
+
+.section-private__area {
+  box-sizing: border-box;
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 24px; 
+}
+
+.social-icons-private__icon {
+ margin-right: 16px;
+}
+
+.social-icons-private__icon:hover {
+  transform: scale(1.2);
+  transition-duration: 300ms;
+ }
+
+ .padding_v_xxxxl {
+   box-sizing: border-box;
+   padding: 80px 24px;
+ }
+
+
+
+/* //geronimo */
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1024px) {
+  .section-private__area {
+    width: 100%;
+    padding: 40px 40px; 
+  }
+  
   .navigation /*I want this div to be in position fixed and height as 100% of the screen. But when I do it, there is a chaos*/ {
     position: relative;
     width: 100%;
@@ -241,6 +311,10 @@ a:hover {
 
 .indent-b_xl {
   margin-bottom: 20px;
+}
+
+.indent-b_l {
+  margin-bottom: 16px;
 }
 
 .indent-b_s {
