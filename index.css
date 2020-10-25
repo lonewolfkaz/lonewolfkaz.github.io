@@ -120,6 +120,14 @@ a:hover {
   font-weight: bold;
 }
 
+.text_weight_medium {
+  font-weight: medium;
+}
+
+.text_underline {
+  text-decoration: underline;
+}
+
 .navigation {
   box-sizing: border-box;
   width: 400px;
@@ -171,6 +179,40 @@ a:hover {
 }
 
 /* geronimo */
+.flex-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.flex-child {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+
 .section-private {
   width: 100%;
 }
@@ -210,6 +252,32 @@ a:hover {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1024px) {
+  .flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .cv {
+    margin-bottom: 32px;
+  }
+
+
   .section-private__area {
     width: 100%;
     padding: 40px 40px; 
@@ -301,12 +369,24 @@ a:hover {
   box-shadow: 2px 1px 8px 0px rgba(179, 175, 179, 0.49);
 }
 
+.indent-b_8xl {
+  margin-bottom: 80px;
+}
+
+.indent-b_xxxxxl {
+  margin-bottom: 48px;
+}
+
 .indent-b_xxxxl {
   margin-bottom: 40px;
 }
 
 .indent-b_xxl {
   margin-bottom: 24px;
+}
+
+.indent-r_xxl {
+  margin-right: 24px;
 }
 
 .indent-b_xl {
