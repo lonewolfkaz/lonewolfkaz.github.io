@@ -158,6 +158,7 @@ a:hover {
 }
 
 .layout--container {
+  max-width: 1280px;
   width: 90%;
   margin: auto;
   position: relative;
@@ -171,15 +172,10 @@ a:hover {
 }
 
 .header-new {
-  height: 112px;
+  padding-top: 48px;
   width: 100%;
   display: flex;
   align-items: center;
-}
-
-.logo {
-  display: inline;
-  margin-right: 72px;
 }
 
 .section {
@@ -266,9 +262,6 @@ a:hover {
 
 
 
-.content_indent{
-  padding-left: 120px;
-}
 
 
 
@@ -310,12 +303,20 @@ a:hover {
   margin-left: 120px;
 }
 
+.indent-b_12xl {
+  margin-bottom: 120px;
+}
+
 .indent-b_9xl {
   margin-bottom: 96px;
 }
 
 .indent-b_8xl {
   margin-bottom: 80px;
+}
+
+.indent-b_7xl {
+  margin-bottom: 72px;
 }
 
 .indent-b_xxxxxl {
@@ -375,9 +376,6 @@ a:hover {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1024px) {
-  .logo{
-    display: none;
-  }
 
   .content_indent{
     padding-left: 0;
