@@ -23,11 +23,12 @@
   color: white;
 }
 
+
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", "Helvetica Neue", "Segoe UI", sans-serif;
   margin: 0;
   padding: 0;
-}
+} 
 
 a {
   color: var(--color-text-secondary);
@@ -79,7 +80,6 @@ a:hover {
   margin: 0;
   padding: 0;
   font-size: 100%;
-  font-weight: 300;
 }
 .text_size_xxxxxl {
   font-size: 96px;
