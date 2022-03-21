@@ -412,6 +412,11 @@ a:hover {
   grid-template-columns: 50fr 50fr ;
 }
 
+.container_50-50__second {
+  text-align: right;
+  padding-right: 24px;
+}
+
 .informer {
   border-radius: 32px;
   padding-top: 24px;
