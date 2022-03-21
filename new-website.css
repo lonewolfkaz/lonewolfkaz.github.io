@@ -403,7 +403,13 @@ a:hover {
   padding-bottom: 48px;
   display: grid;
   grid-gap: 32px;
-  grid-template-columns: 33fr 33fr 33fr;
+  grid-template-columns: 33fr 66fr;
+}
+
+.container_50-50 {
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: 50fr 50fr ;
 }
 
 .informer {
@@ -413,7 +419,7 @@ a:hover {
   padding-left: 40px;
   display: grid;
   grid-gap: 32px;
-  grid-template-columns: 33fr 68fr;
+  grid-template-columns: 33fr 66fr;
 }
 
 
