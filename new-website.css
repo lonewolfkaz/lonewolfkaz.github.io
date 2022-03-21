@@ -369,6 +369,10 @@ a:hover {
   margin-right: 24px;
 }
 
+.indent-r_l {
+  margin-right: 16px;
+}
+
 .indent-b_xl {
   margin-bottom: 20px;
 }
@@ -397,9 +401,14 @@ a:hover {
   float: right;
 }
 
+.align-v {
+  vertical-align: top;
+}
+
 .clear {
   clear: both;
 }
+
 
 /* flex */
 
@@ -440,6 +449,17 @@ a:hover {
   grid-template-columns: 33fr 66fr;
 }
 
+.intro {
+  padding-left: 40px;
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: 80fr 20fr;
+}
+
+
+.display_inline-block{
+display: inline;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -537,6 +557,11 @@ a:hover {
   }
 
   .informer {
+    grid-gap: 8px;
+    grid-template-columns: auto;
+  }
+
+  .intro {
     grid-gap: 8px;
     grid-template-columns: auto;
   }
