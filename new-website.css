@@ -544,5 +544,10 @@ a:hover {
   .container_50-50_project {
     grid-template-columns: auto;
   }
+
+  .text_size_xxxxxl {
+    font-size: 64px;
+    line-height: 80px;
+  }
   
 }
