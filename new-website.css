@@ -50,6 +50,8 @@ a:hover {
   user-select: none;
 }
 
+
+
 .social-icons__icon {
   margin-right: 20px;
 }
@@ -266,6 +268,11 @@ a:hover {
   padding: 40px 24px; 
 }
 
+.social-icons-new {
+ display: grid;
+ grid-row: ;
+}
+
 .social-icons-private__icon {
  margin-right: 16px;
 }
@@ -461,6 +468,10 @@ a:hover {
 display: inline;
 }
 
+.social-icons-align-right {
+text-align: right;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1024px) {
@@ -552,13 +563,13 @@ display: inline;
   }
 
   .container {
-    padding: 0 24px 24px 24px;
+    padding: 0 0 24px 24px;
     grid-gap: 8px;
     grid-template-columns: auto;
   }
 
   .informer {
-    padding: 24px 24px 24px 24px;
+    padding: 24px 0 24px 24px;
     grid-gap: 8px;
     grid-template-columns: auto;
   }
@@ -582,6 +593,10 @@ display: inline;
     box-sizing: border-box;
     max-width: 100%;
     padding: 48px 0px 0px 24px;
+  }
+
+  .social-icons-align-right {
+    text-align: left;
   }
   
 }
