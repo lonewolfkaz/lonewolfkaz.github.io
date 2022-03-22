@@ -519,7 +519,7 @@ display: inline;
     box-sizing: border-box;
     width: 100%;
     margin: auto;
-    padding: 0 40px 40px 40px;
+    padding: 0;
   }
 
   .menu__page-link {
@@ -547,21 +547,24 @@ display: inline;
   }
 
   .section_container_secondary {
-    padding-left: 0px;
+    padding: 0 24px 24px 24px;
     width: 100%;
   }
 
   .container {
+    padding: 0 24px 24px 24px;
     grid-gap: 8px;
     grid-template-columns: auto;
   }
 
   .informer {
+    padding: 24px 24px 24px 24px;
     grid-gap: 8px;
     grid-template-columns: auto;
   }
 
   .intro {
+    padding: 0 24px 24px 24px;
     grid-gap: 8px;
     grid-template-columns: auto;
   }
@@ -573,6 +576,12 @@ display: inline;
   .text_size_xxxxxl {
     font-size: 64px;
     line-height: 80px;
+  }
+
+  .header-new {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 48px 0px 0px 24px;
   }
   
 }
