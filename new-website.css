@@ -569,7 +569,7 @@ text-align: right;
   }
 
   .informer {
-    padding: 24px 0 24px 24px;
+    padding: 24px 24px 24px 24px;
     grid-gap: 8px;
     grid-template-columns: auto;
   }
