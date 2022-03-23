@@ -552,7 +552,7 @@ text-align: right;
 }
 
 .image_project_invoicing {
-  background-image: url("image_project_invoicing.png");
+  background-image: url("image_project_Invoicing.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -561,7 +561,7 @@ text-align: right;
 (min-resolution: 192dpi) { 
 
     .image_project_invoicing {
-        background:url('image_project_invoicing@2x.png');
+        background:url('image_project_Invoicing@2x.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -600,7 +600,7 @@ text-align: right;
 }
 
 .image_project_infrastructure-kassa {
-  background-image: url("image_project_infrastructure-kassa.png");
+  background-image: url("image_project_Infrastructure-kassa.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -609,7 +609,7 @@ text-align: right;
 (min-resolution: 192dpi) { 
 
     .image_project_infrastructure-kassa {
-        background:url('image_project_infrastructure-kassa@2x.png');
+        background:url('image_project_Infrastructure-kassa@2x.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
