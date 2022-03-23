@@ -31,14 +31,17 @@
 } 
 
 a {
-  color: var(--color-text-secondary);
-  text-decoration: none;
+  color: var(--color-text-primary);
+  text-decoration: underline;
 }
 
 a:hover {
-  color: var(--color-text-primary);
+  color: var(--color-text-secondary);
   cursor: pointer;
-  transition-duration: 900ms;
+  text-decoration: none;
+
+  transform: scale(1.2);
+  transition-duration: 300ms;
 }
 
 .social-icons {
@@ -65,8 +68,9 @@ a:hover {
 }
 
 .menu__page-link_selected {
-  color: var(--color-text-primary);
+  color: var(--color-text-ghost);
   cursor: auto;
+  text-decoration: none;
 }
 
 .view_normal {
@@ -165,6 +169,10 @@ a:hover {
 
 .text_underline {
   text-decoration: underline;
+}
+
+.text_underline_none {
+  text-decoration: none;
 }
 
 .navigation {
@@ -284,12 +292,8 @@ a:hover {
 
 .social-icons-private__icon {
  margin-right: 16px;
+ text-decoration: none;
 }
-
-.social-icons-private__icon:hover {
-  transform: scale(1.2);
-  transition-duration: 300ms;
- }
 
  .padding_v_xxxxl {
    box-sizing: border-box;
