@@ -142,6 +142,15 @@ a:hover {
   color: var(--color-brand);
 }
 
+.text_view_gradient-alfa {
+  background: -webkit-linear-gradient(left, #8360C3, #2EBF91);
+   background: -o-linear-gradient(right, #8360C3, #2EBF91);
+   background: -moz-linear-gradient(right, #8360C3, #2EBF91);
+   background: linear-gradient(to right, #8360C3, #2EBF91); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .text_view_alert {
   color: var(--color-text-alert);
 }
