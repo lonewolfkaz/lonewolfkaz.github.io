@@ -611,5 +611,9 @@ text-align: right;
   .social-icons-align-right {
     text-align: left;
   }
+
+  .social-icons-private__icon {
+    margin-right: 24px;
+   }
   
 }
