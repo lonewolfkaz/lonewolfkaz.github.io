@@ -485,6 +485,138 @@ display: inline;
 text-align: right;
 }
 
+/* project images */
+
+.image_project_product-posting {
+  background-image: url("image_project_product-posting.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_project_product-posting {
+        background:url('image_project_product-posting@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.image_project_online-chat {
+  background-image: url("image_project_online-chat.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_project_online-chat {
+        background:url('image_project_online-chat@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.image_project_infrastructure {
+  background-image: url("image_project_infrastructure.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_project_infrastructure {
+        background:url('image_project_infrastructure@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.image_project_landing-pages {
+  background-image: url("image_project_landing-pages.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_project_landing-pages {
+        background:url('image_project_landing-pages@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.image_project_invoicing {
+  background-image: url("image_project_invoicing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_project_invoicing {
+        background:url('image_project_invoicing@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.image_project_payments-sdk {
+  background-image: url("image_project_payments-sdk.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_project_payments-sdk {
+        background:url('image_project_payments-sdk@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.image_project_onboarding {
+  background-image: url("image_project_onboarding.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_project_onboarding {
+        background:url('image_project_onboarding@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.image_project_infrastructure-kassa {
+  background-image: url("image_project_infrastructure-kassa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_project_infrastructure-kassa {
+        background:url('image_project_infrastructure-kassa@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* end project images */
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1024px) {
