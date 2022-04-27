@@ -92,11 +92,17 @@ a:hover {
   line-height: 72px;
 }
 
+.text_size_xxxxl {
+  font-size: 32px;
+  line-height: 48px;
+}
 
 .text_size_xxxl {
   font-size: 48px;
   line-height: 60px;
 }
+
+
 
 .text_size_xxl {
   font-size: 40px;
