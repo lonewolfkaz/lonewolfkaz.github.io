@@ -86,7 +86,15 @@ a:hover {
   margin: 0;
   padding: 0;
   font-size: 100%;
+  letter-spacing: -0.4px;
 }
+
+.text_letter-spacing_none {
+  letter-spacing: 0;
+}
+
+
+
 .text_size_xxxxxl {
   font-size: 64px;
   line-height: 72px;
