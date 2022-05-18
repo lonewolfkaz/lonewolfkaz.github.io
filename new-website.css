@@ -90,14 +90,14 @@ a:hover {
 }
 
 .text_letter-spacing_none {
-  letter-spacing: 0;
+  letter-spacing: 0 !;
 }
 
 
 
 .text_size_xxxxxl {
-  font-size: 64px;
-  line-height: 72px;
+  font-size: 56px;
+  line-height: 64px;
 }
 
 .text_size_xxxxl {
@@ -167,6 +167,7 @@ a:hover {
    background: -moz-linear-gradient(right, #8360C3, #2EBF91);
    background: linear-gradient(to right, #8360C3, #2EBF91); 
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -309,7 +310,6 @@ a:hover {
 
 .social-icons-new {
  display: grid;
- grid-row: ;
 }
 
 .social-icons-private__icon {
