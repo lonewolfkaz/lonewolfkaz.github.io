@@ -12,6 +12,7 @@
 
   --color-bg-normal: #F5F6F7;
   --color-bg-alert: #FFF3F2;
+  --color-bg-normal-secondary: #F2F2F2;
   
 
 }
@@ -75,6 +76,10 @@ a:hover {
 
 .view_normal {
   background-color: var(--color-bg-normal);
+}
+
+.view_normal-secondary {
+  background-color: var(--color-bg-normal-secondary);
 }
 
 .view_alert {
@@ -324,36 +329,55 @@ a:hover {
 
 
 
-
-
-
-
-.card {
-  color: var(--color-text-secondary);
-  height: 300px;
+ .card {
   width: 100%;
-  margin-bottom: 40px;
-  border-radius: 16px;
-  transition-duration: 500ms;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 264px;
+  border-radius: 48px;
 }
 
-.card:hover {
-  cursor: pointer;
-  -webkit-box-shadow: 3px 1px 8px 5px rgba(179, 175, 179, 0.3);
-  -moz-box-shadow: 3px 1px 8px 5px rgba(179, 175, 179, 0.3);
-  box-shadow: 3px 1px 8px 5px rgba(179, 175, 179, 0.3);
-
-  -moz-transform: translate(7px, 0px);
-  -webkit-transform: translate(7px, 0px);
-  -o-transform: translate(7px, 0px);
-  -ms-transform: translate(7px, 0px);
-  transform: translate(7px, 0px);
-
-  transition-duration: 500ms;
+.padding-t-4xl {
+  padding-top: 48px !important;
 }
+
+.padding-b-4xl {
+  padding-bottom: 48px !important;
+}
+
+.padding-t-7xl {
+  padding-top: 72px !important;
+}
+
+.padding-b-7xl {
+  padding-bottom: 72px !important;
+}
+
+.border-t {
+  border-top: 8px solid #343434;
+  border-radius: 0px !important;
+}
+
+.border-b {
+  border-bottom: 8px solid #343434;
+  border-radius: 0px !important;
+}
+
+.border-radius-t-7xl {
+  -webkit-border-top-left-radius: 72px;
+-webkit-border-top-right-radius: 72px;
+-moz-border-radius-topleft: 72px;
+-moz-border-radius-topright: 72px;
+border-top-left-radius: 72px;
+border-top-right-radius: 72px;
+}
+
+.border-radius-7xl {
+  -webkit-border-radius: 72px;
+-moz-border-radius: 72px;
+border-radius: 72px;
+}
+
+
+
 
 .project-card {
   width: 100%;
@@ -641,6 +665,81 @@ text-align: right;
     }
 }
 
+/* new project images */
+
+.image_alibaba {
+  background-image: url("works-alibaba.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_alibaba {
+        background:url('works-alibaba@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+    }
+}
+
+.image_onboarding {
+  background-image: url("works-onboarding.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_onboarding {
+        background:url('works-onboarding@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+    }
+}
+
+.image_mobile-widget {
+  background-image: url("works-mobile-widget.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_mobile-widget {
+        background:url('works-mobile-widget@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+    }
+}
+
+.image_figma-file-structure {
+  background-image: url("works-figma-file-structure.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_figma-file-structure {
+        background:url('works-figma-file-structure@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+    }
+}
+
+
 /* end project images */
 
 
@@ -773,5 +872,20 @@ text-align: right;
   .social-icons-private__icon {
     margin-right: 24px;
    }
+
+   .border-radius-t-7xl {
+    -webkit-border-top-left-radius: 48px;
+  -webkit-border-top-right-radius: 48px;
+  -moz-border-radius-topleft: 48px;
+  -moz-border-radius-topright: 48px;
+  border-top-left-radius: 48px;
+  border-top-right-radius: 48px;
+  }
+  
+  .border-radius-7xl {
+    -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  border-radius: 48px;
+  }
   
 }
