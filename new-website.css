@@ -225,6 +225,7 @@ background: #fff;
   width: 100%;
   height: 100%;
   position: relative;
+  opacity: 0;
 }
 
 .layout--container {
@@ -944,4 +945,39 @@ text-align: right;
     height: 240px;
   }
   
+}
+
+.opacity-hack-one {
+  opacity: 0;
+}
+
+.opacity-hack-two {
+  opacity: 1 !important;
+}
+
+.animation-one {
+  animation: 400ms 400ms 1 normal slidein forwards;
+}
+
+.animation-two {
+  animation: 400ms 800ms 1 normal slidein forwards;
+}
+
+.animation-three {
+  animation: 400ms 1200ms 1 normal slidein forwards;
+}
+
+.animation-four {
+  animation: 400ms 1600ms 1 normal slidein forwards;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateY(30px) scale(1.1);
+  }
+
+  to {
+    transform: translateY(0px) scale(1);
+    opacity: 1;
+  }
 }
