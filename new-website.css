@@ -426,6 +426,10 @@ border-radius: 72px;
   margin-bottom: 48px;
 }
 
+.indent-b_intro {
+  margin-bottom: 48px;
+}
+
 .indent-b_xxxxl {
   margin-bottom: 40px;
 }
@@ -530,6 +534,14 @@ border-radius: 72px;
   display: grid;
   grid-gap: 32px;
   grid-template-columns: 80fr 20fr;
+}
+
+.intro-hack-t {
+  padding-top: 0px !important;
+}
+
+.intro-hack-b {
+  padding-bottom: 0px !important;
 }
 
 
@@ -883,8 +895,20 @@ text-align: right;
   }
 
   .text_size_xxxxxl {
-    font-size: 48px;
-    line-height: 64px;
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  .indent-b_intro {
+    margin-bottom: 16px;
+  }
+
+  .indent-b_photo {
+    margin-bottom: 16px;
+  }
+
+  .padding-t-4xl {
+    padding-top: 24px !important;
   }
 
   .header-new {
@@ -914,6 +938,10 @@ text-align: right;
     -webkit-border-radius: 48px;
   -moz-border-radius: 48px;
   border-radius: 48px;
+  }
+
+  .photo-intro {
+    height: 240px;
   }
   
 }
