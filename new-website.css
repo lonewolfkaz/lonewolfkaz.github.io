@@ -12,7 +12,7 @@
 
   --color-bg-normal: #F5F6F7;
   --color-bg-alert: #FFF3F2;
-  --color-bg-normal-secondary: #F2F2F2;
+  --color-bg-normal-secondary: #E1DFDD;
   
 
 }
@@ -74,6 +74,10 @@ a:hover {
   text-decoration: none;
 }
 
+.view_bg-default {
+background: #fff;
+}
+
 .view_normal {
   background-color: var(--color-bg-normal);
 }
@@ -102,7 +106,7 @@ a:hover {
 
 .text_size_xxxxxl {
   font-size: 56px;
-  line-height: 64px;
+  line-height: 72px;
 }
 
 .text_size_xxxxl {
@@ -332,6 +336,12 @@ a:hover {
  .card {
   width: 100%;
   height: 264px;
+  border-radius: 48px;
+}
+
+.photo-intro {
+  width: 100%;
+  height: 325px;
   border-radius: 48px;
 }
 
@@ -662,6 +672,24 @@ text-align: right;
         background:url('image_project_Infrastructure-kassa@2x.png');
         background-repeat: no-repeat;
         background-size: cover;
+    }
+}
+
+.image_intro {
+  background-image: url("photo-intro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+    .image_intro {
+        background:url('photo-intro@2x.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
     }
 }
 
