@@ -21,6 +21,7 @@
   --color-bg-delta: #E7FCE9;
   --color-bg-epsilon: #E7FDFA;
   --color-bg-zeta: #E7E8FD;
+  --color-bg-eta: #232635;
 
 }
 
@@ -121,6 +122,11 @@ a:hover {
 .view_zeta {
   background-color: var(--color-bg-zeta);
 }
+
+.view_eta {
+  background-color: var(--color-bg-eta);
+}
+
 
 
 /* Text */
