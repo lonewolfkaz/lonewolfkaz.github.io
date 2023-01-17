@@ -22,7 +22,7 @@
   --color-bg-epsilon: #E7FDFA;
   --color-bg-zeta: #E7E8FD;
   --color-bg-eta: #232635;
-
+  --color-bg-theta: #D1D3D9;
 }
 
 
@@ -125,6 +125,10 @@ a:hover {
 
 .view_eta {
   background-color: var(--color-bg-eta);
+}
+
+.view_theta {
+  background-color: var(--color-bg-theta);
 }
 
 
@@ -617,7 +621,7 @@ a:hover {
   .image {
     display: block;
     margin: 0 auto;
-    max-width: 84%;
+    /* max-width: 84%; */
   }
 }
 
