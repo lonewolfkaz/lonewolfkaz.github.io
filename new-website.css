@@ -436,6 +436,12 @@ a:hover {
   border-radius: 72px;
 }
 
+.border-radius-4xl {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+}
+
 
 
 
@@ -1004,18 +1010,18 @@ a:hover {
   }
 
   .border-radius-t-7xl {
-    -webkit-border-top-left-radius: 48px;
-    -webkit-border-top-right-radius: 48px;
-    -moz-border-radius-topleft: 48px;
-    -moz-border-radius-topright: 48px;
-    border-top-left-radius: 48px;
-    border-top-right-radius: 48px;
+    -webkit-border-top-left-radius: 32px;
+    -webkit-border-top-right-radius: 32px;
+    -moz-border-radius-topleft: 32px;
+    -moz-border-radius-topright: 32px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
   }
 
   .border-radius-7xl {
-    -webkit-border-radius: 48px;
-    -moz-border-radius: 48px;
-    border-radius: 48px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
   }
 
   .photo-intro {
