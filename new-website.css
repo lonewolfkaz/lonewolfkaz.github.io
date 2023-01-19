@@ -131,6 +131,18 @@ a:hover {
   background-color: var(--color-bg-theta);
 }
 
+.view_theta2 {
+  background-image: url('img_background_overlay2.png');
+  background: url('img_background_overlay2.png') no-repeat right bottom, var(--color-bg-theta);
+}
+
+.view_iota {
+  background: rgb(166, 17, 17);
+  background-image: url('img_background_overlay1.svg');
+  background: url('img_background_overlay1.svg') no-repeat center bottom, linear-gradient(35deg, rgba(166, 17, 17, 1) 0%, rgba(255, 72, 0, 1) 100%);
+}
+
+
 
 
 /* Text */
@@ -971,6 +983,10 @@ a:hover {
 
   .container_50-50_project {
     grid-template-columns: auto;
+  }
+
+  .text_align_center {
+    text-align: center;
   }
 
   .text_size_xxxxxl {
