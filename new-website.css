@@ -53,6 +53,22 @@ a:hover {
   transition-duration: 300ms;
 }
 
+.button {
+  background-color: #222;
+  padding: 8px 16px 8px 16px !important;
+  -webkit-border-radius: 44px;
+  -moz-border-radius: 44px;
+  border-radius: 44px;
+}
+
+.button:hover {
+  color: var(--color-text-primary_theme_inverse) !important;
+  background-color: rgba(34, 34, 34, 0.8);
+
+  transform: scale(1.2);
+  transition-duration: 300ms;
+}
+
 .social-icons {
   position: absolute;
   bottom: 120px;
@@ -495,7 +511,7 @@ a:hover {
 }
 
 .indent-b_intro {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .indent-b_xxxxl {
@@ -987,6 +1003,10 @@ a:hover {
 
   .text_align_center {
     text-align: center;
+  }
+
+  .text_align_left {
+    text-align: left !important;
   }
 
   .text_size_xxxxxl {
