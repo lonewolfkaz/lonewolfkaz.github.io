@@ -550,6 +550,10 @@ a:hover {
   margin-bottom: 12px;
 }
 
+.indent-r_xs {
+  margin-right: 8px;
+}
+
 .indent-b_xs {
   margin-bottom: 8px;
 }
