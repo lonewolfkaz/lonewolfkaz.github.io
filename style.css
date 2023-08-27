@@ -36,6 +36,8 @@
 
 * {
   font-family: "Poppins", "Helvetica Neue", "Segoe UI", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
 }
