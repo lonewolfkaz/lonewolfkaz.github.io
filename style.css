@@ -465,12 +465,12 @@ a:hover {
 }
 
 .border-t {
-  border-top: 8px solid var(--color-text-primary);
+  border-top: 1px solid var(--color-text-primary);
   border-radius: 0px !important;
 }
 
 .border-b {
-  border-bottom: 8px solid var(--color-text-primary);
+  border-bottom: 1px solid var(--color-text-primary);
   border-radius: 0px !important;
 }
 
