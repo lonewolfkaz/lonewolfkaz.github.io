@@ -41,14 +41,17 @@
 }
 
 @font-face {
-  font-family: 'neue-montreal';
-  src: url('PPNeueMontreal-Medium.otf') format('woff2')
+  font-family: 'neue-montreal-medium';
+  src: url('PPNeueMontreal-Medium.otf') format('woff2');
+}
+
+@font-face {
+  font-family: 'neue-montreal-bold';
+  src: url('PPNeueMontreal-Bold.otf') format('woff2');
 }
 
 * {
-  font-family: "neue-montreal", "Helvetica Neue", "Segoe UI", "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "neue-montreal-medium", "Helvetica Neue", "Segoe UI", "Arial", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -281,14 +284,17 @@ a:hover {
 }
 
 .text_weight_medium {
+  font-family: "neue-montreal-bold", "Helvetica Neue", "Segoe UI", "Arial", sans-serif;
   font-weight: 600;
 }
 
 .text_weight_bold {
+  font-family: "neue-montreal-bold", "Helvetica Neue", "Segoe UI", "Arial", sans-serif;
   font-weight: 700;
 }
 
 .text_weight_medium {
+  font-family: "neue-montreal-bold", "Helvetica Neue", "Segoe UI", "Arial", sans-serif;
   font-weight: 600;
 }
 
