@@ -174,7 +174,11 @@ a:hover {
 }
 
 .view_iota {
-  background: #FF8477;
+  background: #170908;
+}
+
+.text_view_iota {
+  color: #FBDF53;
 }
 
 
